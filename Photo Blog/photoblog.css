@@ -3,7 +3,10 @@ body {
 }
 
 .button {
-    background-color: steelblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -13,12 +16,26 @@ img {
 }
 
 nav {
+    text-align: center;
     border-color: black;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     border-bottom: 2px solid #f1f1f1;
     width: 25%;
-    margin-left: calc(10%/6);
     padding: 20px 0;
     font-size: 25px;
+    margin: auto;
+}
+
+.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #ad957a;
+    appearance: none;
+
 }
